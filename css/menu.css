@@ -1,0 +1,20 @@
+@media screen and (max-width: 481px) {
+    a#b-accueil {
+        background-image: url(../img/menu-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    a#b-propos {
+        background-image: url(../img/about-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    a#b-projets {
+        background-image: url(../img/project-icon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

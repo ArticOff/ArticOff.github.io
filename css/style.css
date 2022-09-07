@@ -1,0 +1,276 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: #dcddde;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.15;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    background: #1d1d1d;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6a75f0;
+    border-radius: 30px;
+}
+
+h1.artic-da-dev {
+    color: #ffffff;
+    background-color: #5865f2;
+    height: 450px;
+    font-size: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 5px #000000;
+}
+
+a {
+    color: #5865f2;
+    text-decoration: none;
+}
+
+h2.i-am {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    color: #dcddde;
+}
+
+div.me-i-am {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    color: #dcddde;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #5865f2;
+    color: #18191c;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+a.discord-url-invite {
+    color: #18191c;
+}
+
+section.contact-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+h1.contact-me-h1 {
+    font-size: 40px;
+}
+
+section.buttons {
+    background-color: #4751c4;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    padding-bottom: 20px;
+}
+
+div.buttons-button {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.button {
+    font-weight: bold;
+    background-color: #4751c4;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 20%;
+    height: 60%;
+    line-height: 2.3;
+}
+
+a.button:hover {
+    background-color: #2e368d;
+}
+
+a.active {
+    background-color: #2e368d;
+}
+
+svg.external-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+div.who-i-am {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    color: #dcddde;
+}
+
+a.title {
+    color: white
+}
+
+@media screen and (max-width: 1217px) {
+    div.buttons-button {
+        width: 90%;
+        height: 90%;
+    }
+    a.button {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        background-color: #4751c4;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        width: 20%;
+        height: 70%;
+        border-radius: 10px;
+    }
+    a.active {
+        background-color: #2e368d;
+    }
+    h2.title {
+        display: none;
+    }
+    section.buttons {
+        padding-bottom: 20px;
+    }
+    div.who-i-am {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;    
+        color: #dcddde;
+    }
+    div.me-i-am {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;    
+        color: #dcddde;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .cursor {
+        display: none;
+    }
+    a.active {
+        background-color: #2e368d;
+    }
+    h1.artic-da-dev {
+        font-size: 40px;
+        margin-left: -10px;
+        margin-right: -8px;
+        padding-right: 10px;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.who-i-am {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;    
+        color: #dcddde;
+    }
+    div.me-i-am {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;    
+        color: #dcddde;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .cursor {
+        display: none;
+    }
+
+    h1.artic-da-dev {
+        font-size: 30px;
+        margin-left: -10px;
+        margin-right: -8px;
+        padding-right: 10px;
+    }
+    a.active {
+        background-color: #2e368d;
+    }
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.who-i-am {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;    
+        color: #dcddde;
+    }
+}
