@@ -4,5 +4,15 @@ section.page {
 }
 
 div.who-i-am {
-    margin-top: -30;
+    margin-top: -40;
+}
+
+img.icons {
+    margin-top: 0px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+img.badge {
+    vertical-align: middle;
 }

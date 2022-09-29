@@ -33,10 +33,10 @@ function translate() {
         document.getElementById("title2-1").innerHTML = "La programmation, c'est comme être un peintre devant une toile blanche."
         document.getElementById("title2-2").innerHTML = "Je peux faire ce que je veux avec seulement quelques lignes de code."
 
-        document.getElementById("title3-1").innerHTML = "J'ai choisi la programmation car c'est un sujet qui me passionne depuis mon plus jeune âge."
+        document.getElementById("title3-1").innerHTML = "J'ai choisis la programmation car c'est un sujet qui me passionne depuis mon plus jeune âge."
         document.getElementById("title3-2").innerHTML = `Toujours je me disais ${balise('span', 'style="font-style: italic;"', '"Comment marchent les objets électronique du quotidien ?"')}`
         document.getElementById("title3-3").innerHTML = `ou alors ${balise('span', 'style="font-style: italic;"', '"Comment relier le matériel au logiciel ?"')}`
-        document.getElementById("title3-4").innerHTML = "Ces questions qui semblent bêtes et inutiles pour certain. Et complètement logique pour d'autre."
+        document.getElementById("title3-4").innerHTML = "Ces questions qui semblent bête et inutile pour certain. Et complètement logique pour d'autre."
         document.getElementById("title3-5").innerHTML = "Et pourtant, Je me les répète à moi-même sans cesse..."
 
         document.getElementById("title4-1").innerHTML = `En tant qu'IDE, j'utilise ${balise('a', 'href="https://code.visualstudio.com/" target="_blank"', "Visual Studio Code", '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')}, un éditeur de code très connu et facile à prendre en main, ça me suffit très largement.`

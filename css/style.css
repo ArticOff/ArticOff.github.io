@@ -159,6 +159,11 @@ a.title {
     color: white
 }
 
+svg.external-link {
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
 @media screen and (max-width: 1217px) {
     div.buttons-button {
         width: 90%;
