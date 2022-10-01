@@ -60,7 +60,7 @@ Pypi - https://pypi.org/user/Artic/
         return window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
     },
     index: function() {
-        return window.location.href = "../index.html"
+        return window.location.replace("../index")
     },
     help: function() {
         this.echo(`
