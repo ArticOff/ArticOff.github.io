@@ -21,7 +21,7 @@ function translate() {
         document.getElementById("title-2").innerHTML = "Comment définis-tu la programmation ?"
         document.getElementById("title-3").innerHTML = "Pourquoi la programmation ?"
         document.getElementById("title-4").innerHTML = "Quels sont tes outils ?"
-        document.getElementById("title-5").innerHTML = "Note ton niveau dans chaque langages."
+        document.getElementById("title-5").innerHTML = "Note ton niveau dans chaque langage."
 
         document.getElementById("title1-1").innerHTML = "Je m'appelle Adam, j'ai 14 ans et j'habite à Strasbourg. Je suis originaire de la Russie et d'Allemagne. Mon passe temps, c'est le dev."
         document.getElementById("title1-2").innerHTML = `Je sais coder en ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "Python", "Lua", "HTML", "CSS", "JavaScript", "C#", "C", "PotatoLang" ]'`)}`
