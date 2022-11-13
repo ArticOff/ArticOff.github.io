@@ -17,7 +17,7 @@ function translate() {
         document.getElementById("b-propos").innerHTML = "À Propos"
         document.getElementById("b-projets").innerHTML = "Mes projets"
 
-        document.getElementById("desc-title").innerHTML = `Je suis Artic, mais aussi ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "développeur", "étudiant", "cool", "passionné" ]'`)}`
+        document.getElementById("desc-title").innerHTML = `Je suis Artic, mais aussi ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "développeur", "sympa :D", "cool", "passionné" ]'`)}`
         document.getElementById("desc-1").innerHTML = "Je suis Adam, certain me connaissent sous le nom d'Artic."
         document.getElementById("desc-2").innerHTML = `J'aime le vaste monde de la programmation depuis que j'ai découvert ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} et les langages de programmation.`
         document.getElementById("desc-3").innerHTML = "Depuis, j'enchaine les projets..."
