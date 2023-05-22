@@ -18,7 +18,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "Mes projets"
 
         document.getElementById("desc-title").innerHTML = `Je suis Artic, mais aussi ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "développeur", "sympa :D", "cool", "passionné" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "Je suis Adam, certain me connaissent sous le nom d'Artic."
+        document.getElementById("desc-1").innerHTML = "Je suis Néji, certain me connaissent sous le nom d'Artic."
         document.getElementById("desc-2").innerHTML = `J'aime le vaste monde de la programmation depuis que j'ai découvert ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} et les langages de programmation.`
         document.getElementById("desc-3").innerHTML = "Depuis, j'enchaine les projets..."
         document.getElementById("contact").innerHTML = "Me contacter"
@@ -34,7 +34,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "My projects"
 
         document.getElementById("desc-title").innerHTML = `I'm Artic, but also ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "developer", "student", "cool", "passionate" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "I'm Adam, better known as Artic."
+        document.getElementById("desc-1").innerHTML = "I'm Néji, better known as Artic."
         document.getElementById("desc-2").innerHTML = `I have loved the vast world of programming since I discovered ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} and programming languages.`
         document.getElementById("desc-3").innerHTML = "Since then, I have been working on a number of projects..."
         document.getElementById("contact").innerHTML = "Contact me"
@@ -49,7 +49,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "Meine Projekte"
         
         document.getElementById("desc-title").innerHTML = `Ich bin Artic, aber auch ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "entwickler", "studenten", "cool", "leidenschaftlich" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "Ich bin Adam, besser bekannt als Artic."
+        document.getElementById("desc-1").innerHTML = "Ich bin Néji, besser bekannt als Artic."
         document.getElementById("desc-2").innerHTML = `Ich liebe die weite Welt der Programmierung, seit ich die ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} und Programmiersprachen.`
         document.getElementById("desc-3").innerHTML = "Seitdem habe ich an einer Reihe von Projekten gearbeitet..."
         document.getElementById("contact").innerHTML = "Kontaktieren Sie mich"
@@ -65,7 +65,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "Mis proyectos"
 
         document.getElementById("desc-title").innerHTML = `Yo soy Artic, pero también ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "desarrollador", "estudiante", "cool", "apasionado" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "Soy Adam, más conocido como Artic."
+        document.getElementById("desc-1").innerHTML = "Soy Néji, más conocido como Artic."
         document.getElementById("desc-2").innerHTML = `Me encanta el vasto mundo de la programación desde que descubrí ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} y lenguajes de programación.`
         document.getElementById("desc-3").innerHTML = "Desde entonces, he estado trabajando en varios proyectos..."
         document.getElementById("contact").innerHTML = "Contacto"
@@ -81,7 +81,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "I miei progetti"
 
         document.getElementById("desc-title").innerHTML = `Io sono Artic, ma anche ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "sviluppatore", "studente", "cool", "appassionato" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "Sono Adam, meglio conosciuto come Artic."
+        document.getElementById("desc-1").innerHTML = "Sono Néji, meglio conosciuto come Artic."
         document.getElementById("desc-2").innerHTML = `Ho amato il vasto mondo della programmazione da quando ho scoperto ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} e linguaggi di programmazione.`
         document.getElementById("desc-3").innerHTML = "Da allora ho lavorato a diversi progetti..."
         document.getElementById("contact").innerHTML = "Contattatemi"
@@ -97,7 +97,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "Meus projetos"
 
         document.getElementById("desc-title").innerHTML = `Eu sou Artic, mas também ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "desenvolvedor", "estudante", "cool", "apaixonado" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "Eu sou Adam, mais conhecido como Artic."
+        document.getElementById("desc-1").innerHTML = "Eu sou Néji, mais conhecido como Artic."
         document.getElementById("desc-2").innerHTML = `Eu amo o vasto mundo da programação desde que descobri ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} e linguagens de programação.`
         document.getElementById("desc-3").innerHTML = "Desde então, tenho trabalhado em uma série de projetos..."
         document.getElementById("contact").innerHTML = "Contate-me"
@@ -113,7 +113,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "マイプロジェクト"
 
         document.getElementById("desc-title").innerHTML = `私はアーティックですが、同時に ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "開発者", "スチューデント", "冷ややか", "熱情的" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "私はアダム、通称アーティックです。"
+        document.getElementById("desc-1").innerHTML = "私の名前はネジです。、通称アーティックです。"
         document.getElementById("desc-2").innerHTML = `に始まり、プログラミングの広大な世界に惚れ込んでいます。 ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'スクラッチ', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} およびプログラミング言語.`
         document.getElementById("desc-3").innerHTML = "それ以来、私はさまざまなプロジェクトに取り組んできました...。"
         document.getElementById("contact").innerHTML = "お問い合わせ"
@@ -129,7 +129,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "マイプロジェクト"
 
         document.getElementById("desc-title").innerHTML = `私はアーティックですが、同時に ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "開発者", "スチューデント", "冷ややか", "熱情的" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "私はアダム、通称アーティックです。"
+        document.getElementById("desc-1").innerHTML = "私の名前はネジです。、通称アーティックです。"
         document.getElementById("desc-2").innerHTML = `に始まり、プログラミングの広大な世界に惚れ込んでいます。 ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'スクラッチ', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} およびプログラミング言語.`
         document.getElementById("desc-3").innerHTML = "それ以来、私はさまざまなプロジェクトに取り組んできました...。"
         document.getElementById("contact").innerHTML = "お問い合わせ"
@@ -151,7 +151,7 @@ function translate() {
         document.getElementById("b-projets").innerHTML = "My projects"
 
         document.getElementById("desc-title").innerHTML = `I'm Artic, but also ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "developer", "student", "cool", "passionate" ]'`)}`
-        document.getElementById("desc-1").innerHTML = "I am Adam, better known as Artic."
+        document.getElementById("desc-1").innerHTML = "I am Néji, better known as Artic."
         document.getElementById("desc-2").innerHTML = `I have loved the vast world of programming since I discovered ${balise('a', 'href="https://scratch.mit.edu/" target="_blank"', 'Scratch', '<svg class="external-link" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" class="h-5 w-5 inline-block mb-1" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>')} and programming languages.`
         document.getElementById("desc-3").innerHTML = "Since then, I have been working on a number of projects..."
         document.getElementById("contact").innerHTML = "Contact me"
