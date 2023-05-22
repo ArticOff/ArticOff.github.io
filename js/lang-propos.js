@@ -23,7 +23,7 @@ function translate() {
         document.getElementById("title-4").innerHTML = "Quels sont tes outils ?"
         document.getElementById("title-5").innerHTML = "Note ton niveau dans chaque langage."
 
-        document.getElementById("title1-1").innerHTML = "Je m'appelle Adam, j'ai 14 ans et j'habite à Strasbourg. Je suis originaire de la Russie et d'Allemagne. Mon passe temps, c'est le dev."
+        document.getElementById("title1-1").innerHTML = "Je m'appelle Néji, j'ai 14 ans et j'habite en Côte-D'Or. Mon passe temps, c'est le dev."
         document.getElementById("title1-2").innerHTML = `Je sais coder en ${balise('span', `style="color: #5865f2;" class="txt-rotate" data-period="2000" data-rotate='[ "Python", "Lua", "HTML", "CSS", "JavaScript", "C#", "C", "PotatoLang" ]'`)}`
         document.getElementById("title1-3").innerHTML = "J'apprend à coder depuis mars  2020 en plein confinement en commencant par Python, un excellent langage de programmation, facile à apprendre et ergonomique. Puis l'HTML, le CSS et le JavaScript pour faire du développement web."
         document.getElementById("title1-4").innerHTML = "J'ai continué sur des langages comme le C# et le C pour faire de l'embarqué, je vais apprendre sur le C++ bientôt. Pour finir sur le Lua, un langage très simple niveau syntaxe, C'est beaucoup plus facile que le Python."
