@@ -1,1 +1,0 @@
-console.log("Salut, ça va ?\nBienvenue dans le club des bidouilleurs !  :)\n\nBravo, vous venez de trouver l'easter egg\n\n\nPas si compliqué ?");
