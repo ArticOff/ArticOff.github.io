@@ -13,7 +13,7 @@ if (path[1] == "mars") {
         if (response.status !== 200) {
             text = await (await fetch("/md/404.md")).text();
         }
-        document.title = `Mars - Documentation | ${path}`
+        document.title = `Mars - Documentation | ${path.pop()}`
         const doc = converter.makeHtml(text);
         document.body.innerHTML += doc;
     })
