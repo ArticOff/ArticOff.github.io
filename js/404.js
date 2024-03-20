@@ -19,7 +19,6 @@ if (path[1] == "mars") {
     })
 } else {
     const main = document.getElementById("main");
-    console.log(main);
     const h1 = document.createElement("h1");
     h1.innerText = "Tu vas où ???";
     const div = document.createElement("div");
