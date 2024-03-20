@@ -7,7 +7,7 @@ if (path[1] == "mars") {
     if (!path || path[2] === "docs") {
         path = "intro";
     }
-    fetch(`/md/${path}.md`)
+    fetch(`/md/${path.pop()}.md`)
     .then(async response => {
         let text = await response.text();
         if (response.status !== 200) {
