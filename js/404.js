@@ -1,4 +1,5 @@
 let path = location.pathname.split("/");
+const main = document.getElementById("main");
 
 if (path[1] == "mars") {
     const converter = new showdown.Converter();
@@ -15,10 +16,13 @@ if (path[1] == "mars") {
         }
         document.title = `Mars - Documentation | ${path.pop()}`
         const doc = converter.makeHtml(text);
-        document.body.innerHTML += doc;
+        main.innerHTML += doc;
     })
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "/css/404.css";
+    document.head.appendChild(link);
 } else {
-    const main = document.getElementById("main");
     const h1 = document.createElement("h1");
     h1.innerText = "Tu vas où ???";
     const div = document.createElement("div");
