@@ -2,6 +2,18 @@
     text-align: left;
 }
 
+pre {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 12px;
+}
+
+code {
+    font-family: monospace;
+}
+
 main {
     padding-left: 8vw;
 }
