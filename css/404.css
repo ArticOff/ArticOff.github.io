@@ -1,4 +1,7 @@
-main {
+* {
     text-align: left;
+}
+
+main {
     padding-left: 8vw;
 }
