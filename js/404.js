@@ -1,10 +1,10 @@
-let path = location.pathname.split("/").shift();
+let path = location.pathname.split("/");
 
-if (path[0] == "mars") {
+if (path[1] == "mars") {
     const converter = new showdown.Converter();
     converter.setOption('tables', true);
 
-    if (!path || path[1] === "docs") {
+    if (!path || path[2] === "docs") {
         path = "intro";
     }
     fetch(`/md/${path}.md`)
