@@ -1,3 +1,3 @@
-# How to install Mars ?
+# How to install Bread ?
 
-You can install Mars by compiling the source code in your desktop.
+You can install Bread by compiling the source code in your desktop.
