@@ -1,14 +1,14 @@
 # Getting Started
 
-When you've installed Mars, you can reach it by typing mars in a command prompt.
+Once you've installed Bread, you can reach it by typing bread in a command prompt.
 
-`mars`
+`bread`
 
-it's normal the mars returns you an error, it waits an argument file.
+it's normal that bread returns you an error, it waits an argument file.
 
-You need to create a .mars file and open it.
+You need to create a .brd file and open it.
 
-Type the following text inside of your .mars file and run it by typing `mars yourfilename.mars`
+Type the following text inside of your .brd file and run it by typing `bread yourfilename.brd`
 ```
 x = 10
 print x
@@ -61,15 +61,15 @@ print 0 == e**(i * pi) + 1
 It is also possible to create modules
 
 ```
-// mymodule.mars
+// mymodule.brd
 
 f(x) = (x ** 2)/(x ** 3) * x
 ```
 
 ```
-// main.mars
+// main.brd
 
-use mymodule.mars
+use mymodule.brd
 
 myfunc = mymodule[f]
 
