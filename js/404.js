@@ -1,7 +1,7 @@
 let path = location.pathname.split("/");
 const main = document.getElementById("main");
 
-if (path[1] == "mars") {
+if (path[1] == "bread") {
     const converter = new showdown.Converter();
     converter.setOption('tables', true);
 
@@ -14,7 +14,7 @@ if (path[1] == "mars") {
         if (response.status !== 200) {
             text = await (await fetch("/md/404.md")).text();
         }
-        document.title = `Mars - Documentation | ${path.pop()}`
+        document.title = `Bread - Documentation | ${path.pop()}`
         const doc = converter.makeHtml(text);
         main.innerHTML += doc;
     })
