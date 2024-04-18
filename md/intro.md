@@ -1,9 +1,9 @@
-# Landing on Mars...
+# Eating Bread...
 
-Welcome in Mars, the math interpreter.
+Welcome on Bread, the math interpreter.
 
-Here devs, you'll see [how to install Mars](/mars/install), [how to use Mars](/mars/usage)
+Here devs, you'll see [how to install Bread](/bread/install), [how to use Bread](/bread/usage)
 
-### Last update : 20 march 2024 
+### Last update : 18 april 2024 
 
-### [credits](/mars/credits)
+### [credits](/bread/credits)
