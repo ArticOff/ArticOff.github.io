@@ -2,7 +2,7 @@
 
 This is my portfolio.
 
-Yes, it is in French and im too busy to translate.
+Yes, it is in French and im too lazy to translate.
 
 ## For Bread devs
 
